@@ -64,7 +64,7 @@ public class TriggerBaterries : MonoBehaviour
             // Dispara a animação
             if (animator != null)
             {
-                animator.SetTrigger("TriggerAnimation");
+                animator.enabled = true; 
             }
 
             // Ativa o script
